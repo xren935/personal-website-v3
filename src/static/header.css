@@ -19,7 +19,7 @@ body {
     font-family: 'lato', sans-serif;
 }
 
-.header {
+/* .header {
     position: absolute;
     height: auto;
     width: 80%;
@@ -28,6 +28,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
+} */
+
+.container {
+    position: absolute center;
+    padding-top: 40vh;
 }
 
 .header h1 {
@@ -49,7 +54,7 @@ body {
     height: 65px;
     z-index: -1;
     color: #f01cb5;
-    overflow-y: hidden;
+    overflow: hidden;
     text-align: left;
 }
 
@@ -75,12 +80,19 @@ body {
     .list {
         margin-left: -70px;
     }
-  }
+}
+
+@media only screen and (max-width: 1000px) {
+    ul {
+        font-size: 5vw;
+    }
+}
+
 
 .header h1 div ul {
     margin: 0 0.5%;
     padding: 0;
-    width: 100%;
+    width: auto;
     text-align: left;
     animation: animate 15s linear infinite;
     display: inline-flexbox;
