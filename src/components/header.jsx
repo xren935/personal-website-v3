@@ -44,7 +44,7 @@ class Header extends React.Component {
                         <li>an Astronomy Enthusiast</li>
                         <li>a Good Daughter/Friend</li>
                         <li>a Part-time Foodie</li>
-                        <li>determined</li>
+                        <li>hardworking & determined</li>
                       </ul>
                     </div>
                   </h1>
