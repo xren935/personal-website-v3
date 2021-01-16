@@ -1,129 +1,150 @@
 /* background and general style */
-body {
+/* body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url(./img/1.png);
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),url(./img/profilepic.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    color: white;
-    font-family: 'lato', sans-serif;
-}
+} */
 
-.container {
-    position: absolute center;
-    padding-top: 40vh;
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(./img/profilepic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 20%;
+  position: absolute center;
+  padding-top: 40vh;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: azure;
+  font-family: "lato", sans-serif;
 }
 
 .header h1 {
-    position: relative;
-    display: flex;
-    /* justify-content: center; */
-    width: auto;
-    text-align: left; 
-    /* font-size: 3.5em; */
-    /* font-size: 5em; */
-    font-weight: 700;
-    /* overflow: hidden; */
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  width: auto;
+  text-align: left;
+  /* font-size: 3.5em; */
+  /* font-size: 5em; */
+  font-weight: 700;
+  /* overflow: hidden; */
+}
+.header h1 #name {
+  vertical-align: middle;
+  font-size: 50px;
+  margin-top: -10px;
+  padding-left: 0.6em;
+  color: rgb(219, 245, 245);
 }
 
-.header h1 div{
-    margin: 0;
-    position: relative;
-    height: auto;
-    width: auto;
-    height: 65px;
-    z-index: -1;
-    color: #f01cb5;
-    overflow: hidden;
-    text-align: left;
+@media only screen and (max-width: 526px) {
+  .header h1 #name {
+    padding-left: 0;
+  }
+}
+
+.header h1 div {
+  margin: 0;
+  position: relative;
+  height: auto;
+  width: auto;
+  height: 65px;
+  z-index: -1;
+  color: #f01cb5;
+  overflow: hidden;
+  text-align: left;
 }
 
 @media only screen and (min-width: 1600px) {
-    .list {
-        margin-left: -150px;
-    }
+  .list {
+    margin-left: -100px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-    ul {
-        font-size: 5vw;
-    }
+  ul {
+    font-size: 5vw;
+  }
 }
 
-
 .header h1 div ul {
-    margin: 0 0.5%;
-    padding: 0;
-    width: auto;
-    text-align: left;
-    animation: animate 15s linear infinite;
-    display: inline-flexbox;
-    white-space: nowrap;
+  margin: 0 0.5%;
+  padding: 0;
+  width: auto;
+  text-align: left;
+  animation: animate 15s linear infinite;
+  display: inline-flexbox;
+  white-space: nowrap;
 }
 
 @keyframes animate {
-    0% {
-        transform: translateY(0px);
-        color: azure;
-    }
+  0% {
+    transform: translateY(0px);
+    color: azure;
+  }
 
-    10% {
-        transform: translateY(-65px);
-        color: aliceblue;
-    }
+  10% {
+    transform: translateY(-65px);
+    color: aliceblue;
+  }
 
-    20% {
-        transform: translateY(-130px);
-        color: rgb(47, 137, 221);
-    }
+  20% {
+    transform: translateY(-130px);
+    color: rgb(47, 137, 221);
+  }
 
-    30% {
-        transform: translateY(-195px);
-        color: azure;
-    }
+  30% {
+    transform: translateY(-195px);
+    color: azure;
+  }
 
-    40% {
-        transform: translateY(-260px);
-        color: yellow;
-    }
+  40% {
+    transform: translateY(-260px);
+    color: yellow;
+  }
 
-    50% {
-        transform: translateY(-325px);
-        color: pink;
-    }
+  50% {
+    transform: translateY(-325px);
+    color: pink;
+  }
 
-    60% {
-        transform: translateY(-390px);
-        color: rgb(47, 137, 221);
-    }
+  60% {
+    transform: translateY(-390px);
+    color: rgb(47, 137, 221);
+  }
 
-    70% {
-        transform: translateY(-455px);
-        color: pink;
-    }
+  70% {
+    transform: translateY(-455px);
+    color: pink;
+  }
 
-    80% {
-        transform: translateY(-550px);
-        color: aliceblue;
-    }
+  80% {
+    transform: translateY(-550px);
+    color: aliceblue;
+  }
 
-    90% {
-        transform: translateY(-615px);
-        color: azure;
-    }
+  90% {
+    transform: translateY(-615px);
+    color: azure;
+  }
 
-    100% {
-        transform: translateY(-680px);
-        color: black;
-    }
+  100% {
+    transform: translateY(-680px);
+    color: black;
+  }
 }
 
 .header h1 div ul li {
-    list-style-type: none;
-    height: 65px;
+  list-style-type: none;
+  height: 65px;
 }
 
 /* .header p {
