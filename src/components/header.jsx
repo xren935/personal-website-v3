@@ -22,8 +22,12 @@ class Header extends React.Component {
         {(props) => (
           <div style={props}>
             <div className="header" data-aos="fade-in">
+              <div className="content">
+              <h2>
+                Hi,
+              </h2>
               <h1>
-                Hi, I'm <div id="name">Annie Ren</div>
+                I'm Annie Ren
               </h1>
               <br></br>
               <div class="row">
@@ -50,6 +54,7 @@ class Header extends React.Component {
                     </h1>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

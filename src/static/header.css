@@ -18,12 +18,16 @@
   background-repeat: no-repeat;
   padding-left: 20%;
   position: absolute center;
-  padding-top: 40vh;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   color: azure;
   font-family: "lato", sans-serif;
+}
+
+
+.header .content {
+    padding-top: 30vh;
 }
 
 .header h1 {
@@ -32,24 +36,25 @@
   /* justify-content: center; */
   width: auto;
   text-align: left;
-  /* font-size: 3.5em; */
+  font-size: calc(30px + 1vw);
   /* font-size: 5em; */
-  font-weight: 700;
-  /* overflow: hidden; */
+  font-weight: 600;
+  overflow-x: hidden;
 }
-.header h1 #name {
+/* .header h1 #name {
   vertical-align: middle;
   font-size: 50px;
   margin-top: -10px;
-  padding-left: 0.6em;
+  /* padding-left: 0.6em; 
   color: rgb(219, 245, 245);
-}
+} */
 
-@media only screen and (max-width: 526px) {
-  .header h1 #name {
-    padding-left: 0;
-  }
-}
+/* @media only screen and (max-width: 526px) {
+    .header {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url(./img/profilepicsml.png);
+    }
+  } */
 
 .header h1 div {
   margin: 0;
@@ -69,11 +74,22 @@
   }
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   ul {
-    font-size: 5vw;
+    font-size: 30px;
   }
-}
+
+  .header h1 div ul {
+    margin: 0 0.5%;
+    padding: 0;
+    width: auto;
+    text-align: left;
+    animation: animate 10s linear infinite;
+    display: inline-flexbox;
+ white-space: nowrap; 
+  
+  
+} */
 
 .header h1 div ul {
   margin: 0 0.5%;
@@ -82,7 +98,8 @@
   text-align: left;
   animation: animate 15s linear infinite;
   display: inline-flexbox;
-  white-space: nowrap;
+  /* white-space: nowrap; */
+  font-size: calc(25px + 1vw);
 }
 
 @keyframes animate {
@@ -144,7 +161,8 @@
 
 .header h1 div ul li {
   list-style-type: none;
-  height: 65px;
+  /* height: 65px; */
+  height: auto;
 }
 
 /* .header p {
