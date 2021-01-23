@@ -63,7 +63,7 @@
   width: auto;
   height: 65px;
   z-index: -1;
-  color: #f01cb5;
+  color: beige;
   overflow: hidden;
   text-align: left;
 }
@@ -100,6 +100,7 @@
   display: inline-flexbox;
   /* white-space: nowrap; */
   font-size: calc(25px + 1vw);
+  animation-delay: 1.5s;
 }
 
 @keyframes animate {
@@ -109,13 +110,8 @@
   }
 
   10% {
-    transform: translateY(0px);
-    color: azure;
-  }
-
-  15% {
     transform: translateY(-65px);
-    color: aliceblue;
+    color: azure;
   }
 
   20% {
@@ -169,11 +165,3 @@
   /* height: 65px; */
   height: auto;
 }
-
-/* .header p {
-    position: relative;
-    font-size: 1.5em;
-    font-weight: 500;
-    color: #ff0;
-    letter-spacing: 5px;
-} */

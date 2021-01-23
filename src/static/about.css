@@ -1,0 +1,29 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #4d76a5 0%, #090a0f 100%);
+    color: silver;
+    font-size: 1.5em;
+}
+
+.about .container-fluid {
+    margin: 2vh 10vh 10vh 10vh;
+}
+
+#van-photo {
+    width: 35vh;
+    height: 30vh;
+    content: url('../static/img/vancouver.jpg');
+    background-position: cover;
+    border-radius: 30%;
+    margin-left: 50px;
+}
+
+#van-photo:hover {
+    content: url('../static/img/gym.jpeg');
+}
+
+#van-photo:active {
+    content: url('../static/img/food.jpeg');
+}

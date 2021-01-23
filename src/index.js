@@ -6,8 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/header';
 import Sidebar from './components/sidebar';
 import Scroll from './components/scroll';
-import Main from './components/main';
 import Stack from './components/stack';
+import Project from './components/project';
+import Notes from './components/notes';
+import About from './components/about';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +17,9 @@ ReactDOM.render(
     <Header />
     <Sidebar />
     <Stack />
-    <Main />
+    <Project />
+    <Notes />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );

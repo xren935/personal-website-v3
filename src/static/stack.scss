@@ -5,6 +5,7 @@
   overflow: hidden;
 }
 
+// for the star background 
 @function multiple-box-shadow($n) {
   $value: "#{random(2000)}px #{random(2000)}px #FFF";
 
@@ -79,7 +80,62 @@ $shadows-big: multiple-box-shadow(100);
   }
 }
 
-.col {
-  color: white;
-  
+// for the buttons 
+.stack .btn{
+  margin: 6vh;
+  width: 50rem;
 }
+
+.container-fluid {
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.btn-rounded {
+  border-radius: 5rem;
+  color: beige;
+  border: 3px azure solid;
+  box-shadow: 0 1px 0 yellow;
+}
+
+.btn-outline-secondary:hover {
+  background-color: azure;
+  color: black;
+}
+
+.btn-iconed {
+  transition: 0.15s ease-in-out;
+  padding-left: 3rem;
+  padding-right: 3.5rem;
+  font-size: 2rem;
+}
+
+.btn-iconed [class~=oi],
+.btn-iconed [class~=fa],
+.btn-iconed [class~=typcn]::before,
+.btn-iconed [class~=mdi]::before,
+.btn-iconed [class~=icon]::before {
+  opacity: 0;
+  transform-origin: left right;
+  transform: translateX(-10px) scale(1.25);
+  transition: 0.15s ease-out;
+}
+
+.btn-iconed [class=spn] {
+  position: relative;
+  left: -9px;
+  transform-origin: left right;
+  transform: translateX(-9px);
+  transition: 0.2s ease-in-out;
+}
+
+.btn-iconed:hover [class~=fa],
+.btn-iconed:hover [class~="typcn"]::before {
+  opacity: 1;
+  transform: translateX(0px) scale(0.75);
+}
+
+.btn-iconed:hover [class=spn] {
+  left: 0px;
+}
+

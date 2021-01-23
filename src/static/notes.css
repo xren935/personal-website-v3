@@ -1,0 +1,31 @@
+.notes {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: #cdd0cb; */
+    background-color: #14274e;
+}
+
+.notes .content {
+    margin: 30px 30px 30px 30px;
+    width: 100;
+    height: 100%;
+    /* background-color: #b8bbb7; */
+    /* background-color: #9ba4b4; */
+    background-color: #9ba4b4;
+    border-radius: 25px;
+}
+
+.notes .row {
+    padding: 30px;
+}
+
+.notes .card {
+    margin: 30px;
+    width: 20rem;
+    background-color: #f1f6f9;
+}
+
+.notes .btn {
+    background-color: #14274e;
+}

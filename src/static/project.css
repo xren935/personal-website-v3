@@ -1,0 +1,31 @@
+.project {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: #cdd0cb; */
+    background-color: #14274e;
+}
+
+.project .content {
+    margin: 30px 30px 30px 30px;
+    width: 100;
+    height: 100%;
+    /* background-color: #b8bbb7; */
+    /* background-color: #394867; */
+    background-color: #394867;
+    border-radius: 25px;
+}
+
+.project .row {
+    padding: 30px;
+}
+
+.project .card {
+    margin: 30px;
+    width: 20rem;
+    background-color: #f1f6f9;
+}
+
+.project .btn {
+    background-color: #14274e;
+}
