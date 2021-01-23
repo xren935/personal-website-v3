@@ -6,6 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 // import "../static/sidebar.css";
 import "../static/main.css";
+import { Card, Button } from "react-bootstrap";
 
 class Main extends React.Component {
   constructor(props) {
@@ -19,7 +20,49 @@ class Main extends React.Component {
         {(props) => (
           <div style={props}>
             <div className="main">
-                hiiiiiii
+              <div className="content">
+                <div className="row">
+                  <div className="lg-3 md-2 sm-1">
+                    <Card style={{ width: "18rem" }}>
+                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </div>
+                  <div className="lg-3 md-2 sm-1">
+                    <Card style={{ width: "18rem" }}>
+                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </div>
+                  <div className="lg-3 md-2 sm-1">
+                    <Card style={{ width: "18rem" }}>
+                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                      </Card.Body>
+                    </Card>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         )}

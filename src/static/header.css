@@ -27,7 +27,7 @@
 
 
 .header .content {
-    padding-top: 30vh;
+    padding-top: 25vh;
 }
 
 .header h1 {
@@ -109,6 +109,11 @@
   }
 
   10% {
+    transform: translateY(0px);
+    color: azure;
+  }
+
+  15% {
     transform: translateY(-65px);
     color: aliceblue;
   }
@@ -154,7 +159,7 @@
   }
 
   100% {
-    transform: translateY(-680px);
+    transform: translateY(-615px);
     color: black;
   }
 }

@@ -7,12 +7,14 @@ import Header from './components/header';
 import Sidebar from './components/sidebar';
 import Scroll from './components/scroll';
 import Main from './components/main';
+import Stack from './components/stack';
 
 ReactDOM.render(
   <React.StrictMode>
     <Scroll />
     <Header />
     <Sidebar />
+    <Stack />
     <Main />
   </React.StrictMode>,
   document.getElementById('root')
