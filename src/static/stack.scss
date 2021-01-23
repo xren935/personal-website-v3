@@ -83,7 +83,12 @@ $shadows-big: multiple-box-shadow(100);
 // for the buttons 
 .stack .btn{
   margin: 6vh;
-  width: 50rem;
+  // width: 50rem;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  font-size: 1.5em;
+  white-space: normal;
 }
 
 .container-fluid {

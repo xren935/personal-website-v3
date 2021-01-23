@@ -21,9 +21,10 @@
 }
 
 .notes .card {
-    margin: 30px;
-    width: 20rem;
-    background-color: #f1f6f9;
+    width: 50;
+    margin: 20px;
+    height: auto;
+    background-color: #dbe5e9;
 }
 
 .notes .btn {

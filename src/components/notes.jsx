@@ -21,7 +21,7 @@ class Notes extends React.Component {
             <div className="notes" id="notes">
               <div className="content">
                 <div className="row" data-aos="flip-down">
-                  <div className="lg-3 md-2 sm-1">
+                  <div className="col-md">
                     <Card>
                       <Card.Img variant="top" src="" />
                       <Card.Body>
@@ -35,7 +35,7 @@ class Notes extends React.Component {
                       </Card.Body>
                     </Card>
                   </div>
-                  <div className="lg-3 md-2 sm-1">
+                  <div className="col-md">
                     <Card>
                       <Card.Img variant="top" src="holder.js/100px180" />
                       <Card.Body>
@@ -48,7 +48,7 @@ class Notes extends React.Component {
                       </Card.Body>
                     </Card>
                   </div>
-                  <div className="lg-3 md-2 sm-1">
+                  <div className="col-md">
                     <Card>
                       <Card.Img variant="top" src="holder.js/100px180" />
                       <Card.Body>

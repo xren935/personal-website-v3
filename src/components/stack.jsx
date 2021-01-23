@@ -46,7 +46,7 @@ class Stack extends React.Component {
                 <div className="row" data-aos="slide-up">
                   <a
                     type="button"
-                  
+                    href="#notes"
                     class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded"
                   >
                     <i class="fa fa-heart"></i>

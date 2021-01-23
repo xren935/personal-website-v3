@@ -73,7 +73,7 @@ class About extends React.Component {
         <div id="lrgstars"></div>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-10">
               <span>
                 <button onClick={this.setEng}>English</button>
                 <button onClick={this.setFr}>Français</button>
@@ -81,6 +81,10 @@ class About extends React.Component {
                 <button onClick={this.setJap}>日本語</button>
                 <button onClick={this.setKr}>한국어</button>
               </span>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
               <br></br>
               <br></br>
               {this.state.title}
