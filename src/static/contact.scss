@@ -1,16 +1,16 @@
 @import "~compass-mixins/lib/compass/css3";
 /*contact*/
 .contact {
-    width: 100vw;
-    height: 100vh;
-    padding: 40px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    justify-content: center;
-    background: #78c1ec7e;
-    text-align: center;
-    overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  background: #78c1ec7e;
+  text-align: center;
+  overflow: hidden;
 }
 
 .contact button,
@@ -18,10 +18,9 @@
   @include border-radius(25px);
   background: #78c1ec6e;
   border: none;
-  display: block;
-  float: right;
+  //   display: block;
+  float: center;
   cursor: pointer;
-  //   margin-top: 5px;
   padding: 7px 17px;
   &:hover {
     background: #78c1ece7;
@@ -118,8 +117,8 @@
     }
 
     .form-wrapper {
-    //   background: #78c1ecd2;
-    background: #9ba4b4;
+      //   background: #78c1ecd2;
+      background: #9ba4b4;
       color: #394867;
       height: auto;
       min-height: 300px;
@@ -129,4 +128,3 @@
     }
   }
 }
-
