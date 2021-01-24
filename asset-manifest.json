@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/xren935/personal-website-v3/static/css/main.d40e54d4.chunk.css",
-    "main.js": "/xren935/personal-website-v3/static/js/main.0f320321.chunk.js",
-    "main.js.map": "/xren935/personal-website-v3/static/js/main.0f320321.chunk.js.map",
-    "runtime-main.js": "/xren935/personal-website-v3/static/js/runtime-main.a22dec9b.js",
-    "runtime-main.js.map": "/xren935/personal-website-v3/static/js/runtime-main.a22dec9b.js.map",
+    "main.css": "/xren935/personal-website-v3/static/css/main.5fe019ee.chunk.css",
+    "main.js": "/xren935/personal-website-v3/static/js/main.43a01802.chunk.js",
+    "main.js.map": "/xren935/personal-website-v3/static/js/main.43a01802.chunk.js.map",
+    "runtime-main.js": "/xren935/personal-website-v3/static/js/runtime-main.1c9d1078.js",
+    "runtime-main.js.map": "/xren935/personal-website-v3/static/js/runtime-main.1c9d1078.js.map",
     "static/css/2.23b9d16b.chunk.css": "/xren935/personal-website-v3/static/css/2.23b9d16b.chunk.css",
-    "static/js/2.aa18975c.chunk.js": "/xren935/personal-website-v3/static/js/2.aa18975c.chunk.js",
-    "static/js/2.aa18975c.chunk.js.map": "/xren935/personal-website-v3/static/js/2.aa18975c.chunk.js.map",
-    "static/js/3.7c9f8858.chunk.js": "/xren935/personal-website-v3/static/js/3.7c9f8858.chunk.js",
-    "static/js/3.7c9f8858.chunk.js.map": "/xren935/personal-website-v3/static/js/3.7c9f8858.chunk.js.map",
+    "static/js/2.238a58f7.chunk.js": "/xren935/personal-website-v3/static/js/2.238a58f7.chunk.js",
+    "static/js/2.238a58f7.chunk.js.map": "/xren935/personal-website-v3/static/js/2.238a58f7.chunk.js.map",
+    "static/js/3.50fb0ed4.chunk.js": "/xren935/personal-website-v3/static/js/3.50fb0ed4.chunk.js",
+    "static/js/3.50fb0ed4.chunk.js.map": "/xren935/personal-website-v3/static/js/3.50fb0ed4.chunk.js.map",
     "index.html": "/xren935/personal-website-v3/index.html",
     "static/css/2.23b9d16b.chunk.css.map": "/xren935/personal-website-v3/static/css/2.23b9d16b.chunk.css.map",
-    "static/css/main.d40e54d4.chunk.css.map": "/xren935/personal-website-v3/static/css/main.d40e54d4.chunk.css.map",
-    "static/js/2.aa18975c.chunk.js.LICENSE.txt": "/xren935/personal-website-v3/static/js/2.aa18975c.chunk.js.LICENSE.txt",
+    "static/css/main.5fe019ee.chunk.css.map": "/xren935/personal-website-v3/static/css/main.5fe019ee.chunk.css.map",
+    "static/js/2.238a58f7.chunk.js.LICENSE.txt": "/xren935/personal-website-v3/static/js/2.238a58f7.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/xren935/personal-website-v3/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/about.css": "/xren935/personal-website-v3/static/media/vancouver.68086a9e.jpg",
     "static/media/header.css": "/xren935/personal-website-v3/static/media/profilepic.07e00e8a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a22dec9b.js",
+    "static/js/runtime-main.1c9d1078.js",
     "static/css/2.23b9d16b.chunk.css",
-    "static/js/2.aa18975c.chunk.js",
-    "static/css/main.d40e54d4.chunk.css",
-    "static/js/main.0f320321.chunk.js"
+    "static/js/2.238a58f7.chunk.js",
+    "static/css/main.5fe019ee.chunk.css",
+    "static/js/main.43a01802.chunk.js"
   ]
 }
