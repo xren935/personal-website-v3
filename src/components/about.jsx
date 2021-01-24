@@ -67,29 +67,26 @@ class About extends React.Component {
   render() {
     Aos.init({ interval: 1000 });
     return (
-      <div className="about">
+      <div className="about" id="about">
         <div id="smlstars"></div>
         <div id="midstars"></div>
         <div id="lrgstars"></div>
-        <div class="container-fluid">
-          <div class="row">
+        <div class="container">
+          <div class="row" data-aos="slide-right">
             <div class="col-10">
-              <span>
-                <button onClick={this.setEng}>English</button>
-                <button onClick={this.setFr}>Français</button>
-                <button onClick={this.setCh}>中文</button>
-                <button onClick={this.setJap}>日本語</button>
-                <button onClick={this.setKr}>한국어</button>
-              </span>
-              </div>
+              <span><button onClick={this.setEng}>English</button></span>
+              <span><button onClick={this.setFr}>Français</button></span>
+              <span><button onClick={this.setCh}>中文</button></span>
+              <span><button onClick={this.setJap}>日本語</button></span>
+              <span><button onClick={this.setKr}>한국어</button></span>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-              <br></br>
+          <div class="row no-gutters">
+            <div class="col-md">
               <br></br>
               {this.state.title}
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col-md" data-aos="fade-in">
               <div id="van-photo"></div>
             </div>
           </div>

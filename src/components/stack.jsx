@@ -21,8 +21,8 @@ class Stack extends React.Component {
         <div id="lrgstars"></div>
         <div className="container-fluid">
           <div className="row">
-            <div className="col"></div>
-            <div className="col">
+            <div className="col-3"></div>
+            <div className="col-6">
                 <div className="row" data-aos="slide-down">
                   <a
                     type="button"
@@ -30,17 +30,17 @@ class Stack extends React.Component {
                     class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded"
                   >
                     <i class="fa fa-cogs"></i>
-                    <span class="spn">MY_PROJECTS</span>
+                    <span class="spn">PROJECTS</span>
                   </a>
                 </div>
                 <div className="row" data-aos="flip-up">
                   <a
                     type="button"
-                    href="#notes"
+                    href="#about"
                     class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded"
                   >
                     <i class="fa fa-edit"></i>
-                    <span class="spn">LECTURE_NOTES</span>
+                    <span class="spn">NOTES</span>
                   </a>
                 </div>
                 <div className="row" data-aos="slide-up">
@@ -50,11 +50,11 @@ class Stack extends React.Component {
                     class="btn btn-outline-secondary btn-lg btn-iconed btn-rounded"
                   >
                     <i class="fa fa-heart"></i>
-                    <span class="spn">ABOUT_ME</span>
+                    <span class="spn">ME</span>
                   </a>
                 </div>
             </div>
-            <div className="col"></div>
+            <div className="col-8"></div>
           </div>
         </div>
       </div>

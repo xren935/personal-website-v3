@@ -1,16 +1,23 @@
 .about {
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #4d76a5 0%, #090a0f 100%);
     color: silver;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    padding-bottom: 10vw;
 }
 
-.about .container-fluid {
-    /* margin: 2vh 10vh 10vh 10vh; */
-    margin-top: 5vh;
-    margin-left: 10vh;
+.about .container {
+    margin-top: 10vh;
+}
+
+.about .container:hover {
+    color: white;
 }
 
 #van-photo {
@@ -20,6 +27,7 @@
     background-position: cover;
     border-radius: 30%;
     margin-left: 50px;
+    justify-self: center;
 }
 
 #van-photo:hover {
