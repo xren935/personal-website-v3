@@ -81,8 +81,9 @@ $shadows-big: multiple-box-shadow(100);
 
 // for the buttons 
 .stack .btn{
+  // margin: 6vh;
   margin: 6vh;
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   background-color: transparent;
   font-size: 1.2em;
@@ -114,6 +115,7 @@ $shadows-big: multiple-box-shadow(100);
   padding-left: 3rem;
   padding-right: 3.5rem;
   font-size: 2rem;
+  -webkit-appearance: none;
 }
 
 .btn-iconed [class~=oi],
@@ -125,6 +127,7 @@ $shadows-big: multiple-box-shadow(100);
   transform-origin: left right;
   transform: translateX(-10px) scale(1.25);
   transition: 0.15s ease-out;
+  -webkit-appearance: none;
 }
 
 .btn-iconed [class=spn] {
@@ -133,6 +136,7 @@ $shadows-big: multiple-box-shadow(100);
   transform-origin: left right;
   transform: translateX(-9px);
   transition: 0.2s ease-in-out;
+  -webkit-appearance: none;
 }
 
 .btn-iconed:hover [class~=fa],

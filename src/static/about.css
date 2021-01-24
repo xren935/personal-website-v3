@@ -28,6 +28,16 @@
     border-radius: 30%;
     margin-left: 50px;
     justify-self: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 779px) {
+    #van-photo {
+        place-items: center;
+        padding: 0;
+        padding-top: 10px;
+        margin: 0;
+    }
 }
 
 #van-photo:hover {
@@ -48,3 +58,8 @@
 .about button:hover {
     background-color:#acd5ec;
 }
+
+.about button:focus {
+    background-color: #78c2ec;
+}
+

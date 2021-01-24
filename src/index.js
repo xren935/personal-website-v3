@@ -10,6 +10,7 @@ import Stack from './components/stack';
 import Project from './components/project';
 import Notes from './components/notes';
 import About from './components/about';
+import Contact from './components/contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Project />
     <Notes />
     <About />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -8,7 +8,7 @@ import "../static/about.css";
 
 var descEng = `Hello World :)! Thanks for visiting my personal website. My name is Annie, and I'm a 4th year software engineering student at McGill Univeristy. \
 I'm not going to introduce myself here as I'm busy learning programming lol. I like to grab coffee with people, and I really need a job! \
-So, whether you are a recuriter😍, and/or want a potential friend🎢, and/or just want to see if the contact form works, please feel free to reach out to me!`;
+So, whether you are a recuriter😍, and/or want a potential friend🎢, and/or just want to see if the contact form works, please feel free to shoot me an email!`;
 
 var descFr = `Bonjour/soir! Merci d'avoir visité mon site personnel. Je m'appelle Annie et je suis une étudiante en génie logiciel de 4e année à l'Université McGill. \
 Je ne vais pas me présenter ici car je suis occupé à apprendre la programmation lol. J'aime prendre un café avec les gens et j'ai vraiment besoin d'un travail! Alors, \
@@ -18,7 +18,7 @@ var descJap = 'こんにちは！私の個人的なウェブサイトを訪問�
 プログラミングを学ぶのに忙しいので、ここでは自己紹介はしませんです（笑）。友達とコーヒーを飲むのが好きです、そして本当に本当に仕事がしたいです！ \
 だから、あなたがレキュリターであるか😍/潜在的な友人が欲しいかどうか🎢/このお問い合わせフォームをテスト欲しいなら 遠慮なく私に連絡してください！ありがとうございます!';
 
-var descCh = '您好！我叫任星铔，现在在麦吉尔大学软件工程系大四的学生。我就不在这里介绍自己啦，因为要学习的东西很多，真的很忙哈哈哈。我喜欢和朋友喝咖啡，也很需要一个工作! \
+var descCh = '您好！我叫任星铔，现在是麦吉尔大学软件工程系大四的学生。我就不在这里介绍自己啦，因为要学习的东西很多，真的很忙哈哈哈。我喜欢和朋友喝咖啡，也很需要一个工作! \
 所以，如果您是招生官😍 或者想和我做朋友🎢，或者就是想看看下面这个联系表能不能用，都请联系我! 谢谢！';
 
 var descKr = '안녕하세요! 제 개인 웹 사이트를 방문해 주셔서 감사합니다. 내 이름이 애니입니다. 맥길 대학의 소프트웨어 공학 4 학년입니다. \
@@ -31,7 +31,6 @@ class About extends React.Component {
     this.state = {
       title: descEng,
     };
-    // this.setFrench = this.setFrench.bind(this);
   }
 
   setFr = () => {
