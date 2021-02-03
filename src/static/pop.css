@@ -1,0 +1,15 @@
+.modal{
+    padding-top: 30vh;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+#popup {
+    background-color: azure;
+    color: black;
+    border: 5px solid rgba(240, 255, 255, 0.774);
+    box-shadow: rgb(194, 247, 247) 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

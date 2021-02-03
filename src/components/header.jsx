@@ -5,6 +5,8 @@ import { Spring } from "react-spring/renderprops";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "../static/header.css";
+import Sidebar from './sidebar'; 
+
 Aos.init();
 
 class Header extends React.Component {

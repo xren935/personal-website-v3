@@ -1,4 +1,4 @@
-.sidebar {
+#sidebar {
     position: fixed;
     top: 50%; 
     -webkit-transform: translateY(-50%);
@@ -7,7 +7,7 @@
     margin-right: 20px;
 }
 
-.sidebar a {
+#sidebar a {
     display: block;
     text-align: center;
     padding: 16px;
@@ -16,22 +16,22 @@
     font-size: 2em;
 }
 
-.facebook:hover {
+#sidebar .facebook:hover {
     color: #3B5998;
     transition: color 0.5s ease-in;
 }
 
-.insta:hover {
+#sidebar .insta:hover {
     color: #FFDC80;
     transition: color 0.5s ease-in;
 }
 
-.github:hover {
+#sidebar .github:hover {
     color: #6f42c1;
     transition: color 0.5s ease-in;
 }
 
-.linkedin:hover {
+#sidebar .linkedin:hover {
     color: #007bb5;
     transition: color 0.5s ease-in;
 }
