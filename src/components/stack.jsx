@@ -22,7 +22,7 @@ class Stack extends React.Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-3"></div>
-            <div className="col-6">
+            <div className="col-6" id="my-btns">
                 <div className="row" data-aos="slide-down">
                   <a
                     type="button"
