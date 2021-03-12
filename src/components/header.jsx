@@ -5,7 +5,7 @@ import { Spring } from "react-spring/renderprops";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "../static/header.css";
-import Sidebar from './sidebar'; 
+import Sidebar from "./sidebar";
 
 Aos.init();
 
@@ -23,42 +23,39 @@ class Header extends React.Component {
       <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
         {(props) => (
           <div style={props}>
-            <div className="header" data-aos="fade-in">
-              <div className="content">
-              <h2>
-                Hi,
-              </h2>
-              <h1>
-                I'm Annie Ren
-              </h1>
-              <br></br>
-              <div class="row">
-                <div class="col-lg-2 col-md-12">
-                  <h1>I am &nbsp;</h1>
-                </div>
-                <div class="col-lg-10 col-md-12">
-                  <div className="list">
-                    <h1>
-                      <div>
-                        <ul>
-                          <li>a Developer</li>
-                          <li>a McGillian</li>
-                          <li>an Engineer-in-training</li>
-                          <li>a Language Lover</li>
-                          <li>a Philomath</li>
-                          <li>a Conscientious Explorer</li>
-                          <li>an Astronomy Enthusiast</li>
-                          <li>a Good Daughter/Friend</li>
-                          <li>a Part-time Foodie</li>
-                          <li>hardworking & determined</li>
-                        </ul>
+              <div className="header" data-aos="fade-in">
+                <Sidebar />
+                <div className="content">
+                  <h2>Hi,</h2>
+                  <h1>I'm Annie Ren</h1>
+                  <br></br>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-12">
+                      <h1>I am &nbsp;</h1>
+                    </div>
+                    <div class="col-lg-10 col-md-12">
+                      <div className="list">
+                        <h1>
+                          <div>
+                            <ul>
+                              <li>a Developer</li>
+                              <li>a McGillian</li>
+                              <li>an Engineer-in-training</li>
+                              <li>a Language Lover</li>
+                              <li>a Philomath</li>
+                              <li>a Conscientious Explorer</li>
+                              <li>an Astronomy Enthusiast</li>
+                              <li>a Good Daughter/Friend</li>
+                              <li>a Part-time Foodie</li>
+                              <li>hardworking & determined</li>
+                            </ul>
+                          </div>
+                        </h1>
                       </div>
-                    </h1>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
-            </div>
           </div>
         )}
       </Spring>

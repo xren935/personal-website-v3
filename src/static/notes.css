@@ -1,10 +1,14 @@
+.notes #sidebar{
+    display: none;
+}
+
 .notes {
     width: 100vw;
     height: auto;
     min-height: 100vh;
     overflow: hidden;
     /* background-color: #cdd0cb; */
-    background-color: #14274e;
+    background-color: #769fcd;
 }
 
 .notes .content {
@@ -14,7 +18,7 @@
     height: 100%;
     /* background-color: #b8bbb7; */
     /* background-color: #9ba4b4; */
-    background-color: #9ba4b4;
+    background-color: #d6e6f2;
     border-radius: 25px;
 }
 

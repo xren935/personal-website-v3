@@ -16,18 +16,19 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-left: 20%;
-  position: absolute center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  color: azure;
-  font-family: "lato", sans-serif;
+  padding-left: 5px;
 }
 
 
 .header .content {
     padding-top: 25vh;
+    padding-left: 20%;
+    position: absolute center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: azure;
+    font-family: "lato", sans-serif;
 }
 
 .header h1 {

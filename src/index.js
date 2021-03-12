@@ -17,8 +17,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Popup />
     <Scroll />
-    <Header />
     <Sidebar />
+    <Header />
     <Stack />
     <Project />
     <Notes />
