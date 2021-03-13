@@ -19,6 +19,7 @@ class Project extends React.Component {
         {(props) => (
           <div style={props}>
             <div className="project" id="project">
+              <h3>My Projects</h3>
               <div className="content">
                 <div className="row" data-aos="flip-up">
                   <div className="col-md">
@@ -50,14 +51,14 @@ class Project extends React.Component {
                   </div>
                   <div className="col-md">
                     <Card>
-                      <Card.Img variant="top" src="holder.js/100px180" />
+                      <iframe src="https://giphy.com/embed/nxLyDBVanVwwaJ9llh" width="480" height="272" frameBorder="0"></iframe>
                       <Card.Body>
-                        <Card.Title>Wong's Langley</Card.Title>
+                        <Card.Title><a href="https://xren935.github.io/wongs-langley/">Wong's Langley</a></Card.Title>
                         <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          A responsible and interactive website built for Wong's Chinese Restaurant in Langley, BC.
+                          Google Analytics is used to analyze the website's traffic to help improve customer experience. 
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Code</Button>
                       </Card.Body>
                     </Card>
                   </div>
