@@ -29,7 +29,7 @@ class Popup extends React.Component {
                 <Modal show={this.state.show} onHide={this.handleClose}>
                     <div id="popup">
                     <Modal.Header closeButton>
-                        <h3>Hi there! Thanks for visiting. This is a work in progress that will be finished before May 2021🦾🤓</h3>
+                        <h3>Hi there! Thanks for visiting. This website is a work-in-progress that is being updated as I build more projects 🦾🤓</h3>
                     </Modal.Header>
                     </div>
                 </Modal>
