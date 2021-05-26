@@ -19,16 +19,17 @@ class Notes extends React.Component {
         {(props) => (
           <div style={props}>
             <div className="notes" id="notes">
+              <h3>My Notes</h3>
               <div className="content">
                 <div className="row" data-aos="flip-down">
                   <div className="col-md">
                     <Card>
                       <Card.Img variant="top" src="" />
                       <Card.Body>
-                        <Card.Title>BomBuggy</Card.Title>
+                        <Card.Title></Card.Title>
                         <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          {/* Some quick example text to build on the card title and
+                          make up the bulk of the card's content. */}
                         </Card.Text>
                         <Button variant="primary">Code</Button>
                         <Button variant="secondary">Demo</Button>
@@ -39,10 +40,10 @@ class Notes extends React.Component {
                     <Card>
                       <Card.Img variant="top" src="holder.js/100px180" />
                       <Card.Body>
-                        <Card.Title>OiiLaundry</Card.Title>
+                        <Card.Title></Card.Title>
                         <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          {/* Some quick example text to build on the card title and
+                          make up the bulk of the card's content. */}
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                       </Card.Body>
@@ -52,10 +53,10 @@ class Notes extends React.Component {
                     <Card>
                       <Card.Img variant="top" src="holder.js/100px180" />
                       <Card.Body>
-                        <Card.Title>Wong's Langley</Card.Title>
+                        <Card.Title></Card.Title>
                         <Card.Text>
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card's content.
+                          {/* Some quick example text to build on the card title and
+                          make up the bulk of the card's content. */}
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                       </Card.Body>
