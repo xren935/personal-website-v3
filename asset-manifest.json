@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c95ddef.chunk.css",
-    "main.js": "/static/js/main.d3689514.chunk.js",
-    "main.js.map": "/static/js/main.d3689514.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d39cf563.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d39cf563.js.map",
-    "static/css/2.5feeff06.chunk.css": "/static/css/2.5feeff06.chunk.css",
-    "static/js/2.f4a94ae8.chunk.js": "/static/js/2.f4a94ae8.chunk.js",
-    "static/js/2.f4a94ae8.chunk.js.map": "/static/js/2.f4a94ae8.chunk.js.map",
-    "static/js/3.07d19e51.chunk.js": "/static/js/3.07d19e51.chunk.js",
-    "static/js/3.07d19e51.chunk.js.map": "/static/js/3.07d19e51.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.5feeff06.chunk.css.map": "/static/css/2.5feeff06.chunk.css.map",
-    "static/css/main.1c95ddef.chunk.css.map": "/static/css/main.1c95ddef.chunk.css.map",
-    "static/js/2.f4a94ae8.chunk.js.LICENSE.txt": "/static/js/2.f4a94ae8.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/about.css": "/static/media/vancouver.68086a9e.jpg",
-    "static/media/header.css": "/static/media/profilepic.07e00e8a.png"
+    "main.css": "/personal-website-v3/static/css/main.645d52d4.chunk.css",
+    "main.js": "/personal-website-v3/static/js/main.ad39c70a.chunk.js",
+    "main.js.map": "/personal-website-v3/static/js/main.ad39c70a.chunk.js.map",
+    "runtime-main.js": "/personal-website-v3/static/js/runtime-main.54ed3b0c.js",
+    "runtime-main.js.map": "/personal-website-v3/static/js/runtime-main.54ed3b0c.js.map",
+    "static/css/2.3c1aecf6.chunk.css": "/personal-website-v3/static/css/2.3c1aecf6.chunk.css",
+    "static/js/2.f4a94ae8.chunk.js": "/personal-website-v3/static/js/2.f4a94ae8.chunk.js",
+    "static/js/2.f4a94ae8.chunk.js.map": "/personal-website-v3/static/js/2.f4a94ae8.chunk.js.map",
+    "static/js/3.07d19e51.chunk.js": "/personal-website-v3/static/js/3.07d19e51.chunk.js",
+    "static/js/3.07d19e51.chunk.js.map": "/personal-website-v3/static/js/3.07d19e51.chunk.js.map",
+    "index.html": "/personal-website-v3/index.html",
+    "static/css/2.3c1aecf6.chunk.css.map": "/personal-website-v3/static/css/2.3c1aecf6.chunk.css.map",
+    "static/css/main.645d52d4.chunk.css.map": "/personal-website-v3/static/css/main.645d52d4.chunk.css.map",
+    "static/js/2.f4a94ae8.chunk.js.LICENSE.txt": "/personal-website-v3/static/js/2.f4a94ae8.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/personal-website-v3/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/about.css": "/personal-website-v3/static/media/vancouver.68086a9e.jpg",
+    "static/media/header.css": "/personal-website-v3/static/media/profilepic.07e00e8a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d39cf563.js",
-    "static/css/2.5feeff06.chunk.css",
+    "static/js/runtime-main.54ed3b0c.js",
+    "static/css/2.3c1aecf6.chunk.css",
     "static/js/2.f4a94ae8.chunk.js",
-    "static/css/main.1c95ddef.chunk.css",
-    "static/js/main.d3689514.chunk.js"
+    "static/css/main.645d52d4.chunk.css",
+    "static/js/main.ad39c70a.chunk.js"
   ]
 }
